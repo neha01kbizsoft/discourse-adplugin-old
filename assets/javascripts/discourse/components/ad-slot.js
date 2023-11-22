@@ -9,12 +9,12 @@ import {
 
 const adConfig = EmberObject.create({
   "google-adsense": {
-    settingPrefix: "adsense", // settings follow naming convention
+    settingPrefix: "adsense", 
     enabledSetting: "adsense_publisher_code",
     nthPost: "adsense_nth_post_code",
   },
   "google-dfp-ad": {
-    settingPrefix: "dfp", // settings follow naming convention
+    settingPrefix: "dfp", 
     enabledSetting: "dfp_publisher_id",
     nthPost: "dfp_nth_post_code",
   },
@@ -72,6 +72,11 @@ const adConfig = EmberObject.create({
       "side-ad": "adbutler_mobile_side_ad_zone_id",
       "topic-navigation-ad": "adbutler_mobile_topic_navigation_ad_zone_id",
     },
+  },
+  "Ex.co_Player": {
+    settingPrefix: "Exco", 
+    enabledSetting: "addExcoPlayer",
+    nthPost: "Exco_nth_post_code",
   },
 });
 

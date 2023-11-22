@@ -143,7 +143,7 @@ export default AdComponent.extend({
 
   _triggerAds() {
     if (isTesting()) {
-      return; // Don't load external JS during tests
+      return; 
     }
 
     this.set("adRequested", true);
@@ -151,7 +151,7 @@ export default AdComponent.extend({
       const adsbygoogle = window.adsbygoogle || [];
 
       try {
-        adsbygoogle.push({}); // ask AdSense to fill one ad unit
+        adsbygoogle.push({}); 
       } catch (ex) {}
     });
   },
