@@ -9,12 +9,12 @@ import {
 
 const adConfig = EmberObject.create({
   "google-adsense": {
-    settingPrefix: "adsense", 
+    settingPrefix: "adsense", // settings follow naming convention
     enabledSetting: "adsense_publisher_code",
     nthPost: "adsense_nth_post_code",
   },
   "google-dfp-ad": {
-    settingPrefix: "dfp", 
+    settingPrefix: "dfp", // settings follow naming convention
     enabledSetting: "dfp_publisher_id",
     nthPost: "dfp_nth_post_code",
   },
@@ -73,10 +73,6 @@ const adConfig = EmberObject.create({
       "topic-navigation-ad": "adbutler_mobile_topic_navigation_ad_zone_id",
     },
   },
-<<<<<<< HEAD
- 
-=======
->>>>>>> 76ca01a9617ec9fa42f08f672832c95c4149cc48
 });
 
 const displayCounts = {
@@ -265,7 +261,4 @@ export default AdComponent.extend({
 
     return networkNames;
   },
-
-
-
 });
