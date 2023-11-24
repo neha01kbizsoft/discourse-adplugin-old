@@ -262,6 +262,6 @@ export default AdComponent.extend({
     return networkNames;
   },
 
-console.log(exco-player);
+
 
 });
