@@ -3,8 +3,8 @@
 # name: discourse-adplugin
 # about: Ad Plugin for Discourse
 # version: 1.2.6
-# authors: Vi and Sarah (@ladydanger and @cyberkoi)
-# url: https://github.com/rajsh011/discourse-adplugin
+# authors: Vi and Sarah (@ladydanger and @cyberkoi) 22222
+# url: https://github.com/rajsh011/discourse-adplugin6666
 # transpile_js: true
 
 register_asset "stylesheets/adplugin.scss"
