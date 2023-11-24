@@ -73,11 +73,6 @@ const adConfig = EmberObject.create({
       "topic-navigation-ad": "adbutler_mobile_topic_navigation_ad_zone_id",
     },
   },
-  "Ex.co_Player": {
-    settingPrefix: "Exco", 
-    enabledSetting: "addExcoPlayer",
-    nthPost: "Exco_nth_post_code",
-  },
 });
 
 const displayCounts = {
@@ -267,9 +262,6 @@ export default AdComponent.extend({
     return networkNames;
   },
 
-<<<<<<< HEAD
-=======
 console.log(exco-player);
 
->>>>>>> 271222012518be0809e4004325791105a45289c8
 });
