@@ -73,7 +73,10 @@ const adConfig = EmberObject.create({
       "topic-navigation-ad": "adbutler_mobile_topic_navigation_ad_zone_id",
     },
   },
+<<<<<<< HEAD
  
+=======
+>>>>>>> 76ca01a9617ec9fa42f08f672832c95c4149cc48
 });
 
 const displayCounts = {
@@ -262,4 +265,7 @@ export default AdComponent.extend({
 
     return networkNames;
   },
+
+
+
 });
