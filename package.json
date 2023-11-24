@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "discourse-adplugin",
   "version": "1.0.0",
@@ -8,3 +9,15 @@
     "eslint-config-discourse": "^2.0.0"
   }
 }
+=======
+{
+  "name": "discourse-adplugin",
+  "version": "1.0.0",
+  "repository": "git@github.com:discourse/discourse-adplugin.git",
+  "author": "kbizsoft",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint-config-discourse": "^2.0.0"
+  }
+}
+>>>>>>> 271222012518be0809e4004325791105a45289c8
