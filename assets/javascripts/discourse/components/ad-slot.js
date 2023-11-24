@@ -262,6 +262,9 @@ export default AdComponent.extend({
     return networkNames;
   },
 
-
-
+  addExcoPlayer() {
+    const currentUser = this.get("currentUser");
+    var valueExists = true;
+    console.log(valueExists);
+}
 });
